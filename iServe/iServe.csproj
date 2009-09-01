@@ -191,7 +191,7 @@
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>59768</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://iwanttoserve.com</IISUrl>
+          <IISUrl>http://localhost/iServeAlpha</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
