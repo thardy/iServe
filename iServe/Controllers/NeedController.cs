@@ -31,6 +31,7 @@ namespace iServe.Controllers {
 		#endregion Properties
 		
 		public NeedController() : base() {
+			// Alpha change ONE
 			Model = new ModelFactory<iServeDBProcedures>(new iServeDBDataContext(), GetCurrentUserID());
 		}
 		public NeedController(IModelFactory<iServeDBProcedures> modelFactory, User currentUser) : base(currentUser) {
