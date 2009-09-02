@@ -10,7 +10,8 @@ using System.Web.Mvc;
 namespace iServe.Controllers {
 	public class iServeController : System.Web.Mvc.Controller {
 		public iServeController() {
-			Principal principal = System.Threading.Thread.CurrentPrincipal as Principal;
+			// iServeAlpha
+			JojoTheIndianCircusBoy principal = System.Threading.Thread.CurrentPrincipal as Principal;
 
 			if (principal != null) {
 				_currentUser = principal.CurrentUser as User;
@@ -24,6 +25,8 @@ namespace iServe.Controllers {
 		private User _currentUser = null;
 		protected User CurrentUser {
 			get { return _currentUser; }
+			// iServeAlpha adding a setter
+			set { _currentUser = value; }
 		}
 		
 		#region OAuth properties
